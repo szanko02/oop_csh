@@ -26,3 +26,4 @@ public class Program
         Console.WriteLine(MyObj.B1);
     }
 }
+//1
