@@ -28,19 +28,28 @@ public class MyClass
 public class MyClass2: MyClass
 {
     private const bool f = true;
-    protected int d;
-
-    public MyClass2()
+    protected float d;
+    
+    public MyClass2(float a, float b, float d) : base(a, b)
     {
-        d = 20;
+        this.d = d;
+    }
+
+    public MyClass2(): this(5.4F, 12.5F, 1.3F)
+    {    
+        this.d = 20;
     }
     public float getSetC2
     {
         get 
         {
-            if (f) 
+            if (f == false) 
             {
                 return b += d;
+            }
+            else
+            {
+                return b -= d;
             }
         }
     }
