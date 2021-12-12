@@ -35,7 +35,7 @@ public class MyClass2: MyClass
         this.d = d;
     }
 
-    public MyClass2(): this(5.4F, 12.5F, 1.3F)
+    public MyClass2(): this(4.11F, 21, 20)
     {    
         this.d = 20;
     }
